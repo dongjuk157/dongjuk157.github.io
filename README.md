@@ -74,7 +74,7 @@
   - 옆에 sticky로 따라다니는 메뉴를 만드는게 나을듯
 - 탭이 너무 많아보임
   - navbar의 img_maing 삭제
-  - Future는 history와 병합할 예정
+  - Future는 history와 병합할 예정, introduce랑 합쳐도 될듯
   - Main이랑 introduce랑 합칠지 고민중(아직은 삭제안함)
 - Projects 탭 작성
   - card와 modal를 사용할 것이다.
@@ -82,7 +82,10 @@
   - 카드에 들어가는 이미지들 크기가 너무 중구난방이어서 card 크기의 50 퍼센트를 쪼개고 그안에 `object-fit:contain`을 사용해서 넣었다.
   - 그 아래 들어가는 글들은 최대 4줄(제목1줄, 내용3줄)정도가 가장 적합한것같다.
   - 카드 높이들은 어떻게 맞춰야하는지 모르겠다. 같은 줄끼리는 맞춰지는데 다른 줄끼리는 높이가 같지 않아서 조금 불편하다.
-  - 카드를 눌렀을때 modal을 사용할지 page를 몇개 더 만들지 갑자기 고민된다.
+  - 카드를 눌렀을때 modal을 사용할지 page를 몇개 더 만들지 갑자기 고민된다..
+- navbar collapse 적용, 색상 적용
+- introduce 조금 추가
+- history도 삭제?
 
 
 
