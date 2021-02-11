@@ -10,9 +10,9 @@
 </head>
 <body>
   <!-- nav, 최상단 고정 -->
-  <nav class="navbar sticky-top p-2 bg-light d-flex ">
-    <a href="./index.html" class="ms-2 text-decoration-none text-dark fw-bold">img_main</a>
+  <nav class="navbar p-2 bg-light d-flex justify-content-center ">
     <ul class="m-3 d-flex flex-row list-unstyled">
+      <li class="p-2"><a href="./index.html" class="text-decoration-none text-dark">Main</a></li>
       <li class="p-2"><a href="./introduce.html" class="text-decoration-none text-dark">Introduce</a></li>
       <li class="p-2"><a href="./history.html" class="text-decoration-none text-dark">History</a></li>
       <li class="p-2"><a href="./projects.html" class="text-decoration-none text-dark">Projects</a></li>
@@ -20,20 +20,86 @@
       <li class="p-2"><a href="./contact.html" class="text-decoration-none text-dark">Contact</a></li>
     </ul>
   </nav>
-  <h1 class="text-center">Projects</h1>
-  <h2 class="text-center">No item</h2>
-  
-  <div class="container">
-    <section>
+  <h1 class="p-5 text-center">Projects</h1>
+  <section class="container mb-5">
+    <div class="card-deck row d-flex flex-row ">
+      <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
+          <div class="p-1 card-img-top h-50 d-flex justify-content-center">
+            <img src="./image/FPGA_DE1_soc.jpg" class="w-100" alt="FPGA Image" style="object-fit: contain;">
+          </div>
+          <div class="card-body h-50">
+            <h5 class="card-title">FPGA</h5>
+            <p class="card-text">대학교 전공 VLSI 수업</p>
+          </div>
+        </div>
+      </article>
+      <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="p-1 card" style="max-width: 18rem; min-width: 10rem; ">
+          <div class="p-1 card-img-top h-50 d-flex justify-content-center">
+            <img src="./image/arduino_uno.jpg" class="w-100" alt="arduino Image" style="object-fit: contain;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Arduino</h5>
+            <p class="card-text">동아리 교육 및<br> 간단한 프로젝트</p>
+          </div>
+        </div>
+      </article>
+      <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
+          <div class="p-1 card-img-top h-50 d-flex justify-content-center">
+            <img src="./image/rpi_3bp.jpg" class="w-100" alt="Raspberry Pi Image"style="object-fit: contain;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Rasperry Pi</h5>
+            <p class="card-text">게임기 제작,<br> 웹캠을 사용한 얼굴 인식</p>
+          </div>
+        </div>
+      </article>
+      <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="p-1 card " style="max-width: 18rem; min-width: 10rem;">
+          <div class="p-1 card-img-top h-50 d-flex justify-content-center">
+            <img src="./image/android.gif" class="w-100" alt="Android Image" style="object-fit: contain;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Application</h5>
+            <p class="card-text">Voice Record Diary</p>
+          </div>
+        </div>
+      </article>
+      <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
+          <div class="p-1 card-img-top h-50 d-flex justify-content-center">
+            <img src="./image/htmlcssjs.jpeg" class="w-100" alt="Web Image" style="object-fit: contain;">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Web</h5>
+            <p class="card-text">웹페이지 제작</p>
+          </div>
+        </div>
+      </article>
+      <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
+          <div class="p-1 card-img-top h-50 d-flex justify-content-center">
+            <img src="./image/Many_Other_Things.jpg" class="w-100" alt="Many Other Things Image"style="object-fit: contain;">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Others</h5>
+            <p class="card-text">그 외 여러가지</p>
+          </div>
+        </div>
+      </article>
+    </div>
       
-    </section>
+  </section>
 
 
-    <!-- footer -->
-    <footer>
+  <!-- footer -->
+  <footer>
 
-    </footer>
-  </div>
+  </footer>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
