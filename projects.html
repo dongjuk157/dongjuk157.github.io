@@ -41,7 +41,7 @@
     <h1 class="p-4 text-center">Projects</h1>
     <section class="container">
       <div class="card-deck row d-flex flex-row">
-        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#arduinoModal">
           <div class="p-1 card" style="max-width: 18rem; min-width: 10rem; ">
             <div class="p-1 card-img-top h-50 d-flex justify-content-center">
               <img src="./image/arduino_uno.jpg" class="w-100" alt="arduino Image" style="object-fit: contain;">
@@ -52,7 +52,7 @@
             </div>
           </div>
         </article>
-        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#rpiModal">
           <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
             <div class="p-1 card-img-top h-50 d-flex justify-content-center">
               <img src="./image/rpi_3bp.jpg" class="w-100" alt="Raspberry Pi Image"style="object-fit: contain;">
@@ -63,11 +63,10 @@
             </div>
           </div>
         </article>
-        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#webModal">
           <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
             <div class="p-1 card-img-top h-50 d-flex justify-content-center">
               <img src="./image/htmlcssjs.jpeg" class="w-100" alt="Web Image" style="object-fit: contain;">
-  
             </div>
             <div class="card-body">
               <h5 class="card-title">Web</h5>
@@ -75,7 +74,7 @@
             </div>
           </div>
         </article>
-        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#fpgaModal">
           <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
             <div class="p-1 card-img-top h-50 d-flex justify-content-center">
               <img src="./image/FPGA_DE1_soc.jpg" class="w-100" alt="FPGA Image" style="object-fit: contain;">
@@ -86,7 +85,7 @@
             </div>
           </div>
         </article>
-        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#appModal">
           <div class="p-1 card " style="max-width: 18rem; min-width: 10rem;">
             <div class="p-1 card-img-top h-50 d-flex justify-content-center">
               <img src="./image/android.gif" class="w-100" alt="Android Image" style="object-fit: contain;">
@@ -97,7 +96,7 @@
             </div>
           </div>
         </article>
-        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+        <article class="p-2 col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#othersModal">
           <div class="p-1 card" style="max-width: 18rem; min-width: 10rem;">
             <div class="p-1 card-img-top h-50 d-flex justify-content-center">
               <img src="./image/Many_Other_Things.jpg" class="w-100" alt="Many Other Things Image"style="object-fit: contain;">
@@ -111,7 +110,123 @@
       </div>
     </section>
   </section>
-  <!--modal을 만들지 page를 만들지 고민중-->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="arduinoModal" tabindex="-1" aria-labelledby="arduinoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="arduinoModalLabel">Arduino</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>LED 테트리스 </li>
+            <li>초음파 센서를 사용한 장애물 인식</li>
+            <li>미세먼지 센서를 사용한 환기 시스템</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="rpiModal" tabindex="-1" aria-labelledby="rpiModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="rpiModalLabel">Raspberry Pi</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>게임기 제작</li>
+            <li>데이터 송수신기 제작</li>
+            <li>cctv 및 유튜브 송출</li>
+            <li>웹캠을 사용한 얼굴 인식</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="webModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="webModalLabel">Web</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>현재 들어와있는 포트폴리오 페이지</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="fpgaModal" tabindex="-1" aria-labelledby="fpgaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="fpgaModalLabel">FPGA</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>게임 제작</li>
+            <li>어쿠스틱 기타 실시간 악보 생성기</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="appModal" tabindex="-1" aria-labelledby="appModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="appModalLabel">Application</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>voice record diary (제작중단)</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="othersModal" tabindex="-1" aria-labelledby="othersModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="othersModalLabel">Others</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>하드웨어 교육자료</li>
+            <li>동아리 교육에 쓰던 파일이나 사진은 찾는대로 올려두겠습니다.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- footer -->
   <footer>

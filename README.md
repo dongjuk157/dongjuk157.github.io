@@ -74,7 +74,7 @@
   - 옆에 sticky로 따라다니는 메뉴를 만드는게 나을듯
 - 탭이 너무 많아보임
   - navbar의 img_maing 삭제
-  - Future는 history와 병합할 예정, introduce랑 합쳐도 될듯
+  - Future 삭제(introduce와병합)
   - Main이랑 introduce랑 합칠지 고민중(아직은 삭제안함)
 - Projects 탭 작성
   - card와 modal를 사용할 것이다.
@@ -86,6 +86,15 @@
 - navbar collapse 적용, 색상 적용
 - introduce 조금 추가
 - history도 삭제?
+
+
+
+2021-02-12
+
+- project에 modal 추가
+  - modal을 추가하고 싶은 태그에 `data-bs-toggle="modal" data-bs-target="#exampleModal"`이렇게 추가하고 target과 같은 id의 모달을 만들면 된다.
+  - button 클릭 말고 card 자체 클릭하면 뜬다.
+  - 내용은 사진들이 없어서 그냥 ul,li 태그로 몇개 적었따.
 
 
 
