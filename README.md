@@ -94,7 +94,7 @@
 - project에 modal 추가
   - modal을 추가하고 싶은 태그에 `data-bs-toggle="modal" data-bs-target="#exampleModal"`이렇게 추가하고 target과 같은 id의 모달을 만들면 된다.
   - button 클릭 말고 card 자체 클릭하면 뜬다.
-  - 내용은 사진들이 없어서 그냥 ul,li 태그로 몇개 적었따.
+  - 내용은 사진들이 없어서 그냥 ul,li 태그로 몇개 적었다.
 
 
 
