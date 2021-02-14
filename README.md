@@ -5,19 +5,19 @@
 1. index.html
    - 첫 페이지
 2. introduce
-   - 간단한 소개
+   - 소개
+   - 무엇을 하고싶은지 (future)
+   - 어떤 생각을 가지고 있는지 (future)
+   - 뭐 해먹고 살지 (future)
 3. history
    - 약력(출생, 학력 등 연대 순으로 기술)
 4. projects
    - 대학교 전공이나 동아리, 혼자 했던 프로젝트들 정리
    - 기술별로 정리? 
-5. future
-   - 무엇을 하고싶은지
-   - 어떤 생각을 가지고 있는지
-   - 뭐 해먹고 살지
-6. contact
-   - instagram
+5. contact
    - phone number
+   - mail
+   - instagram, github, linkedin
 
 
 
@@ -102,7 +102,7 @@
 2021-02-13
 
 - 아무것도 하기 싫어서 놀았다.
-- 주말인데 좀 쉴 수 도 있잖아
+- 주말인데 좀 쉴 수도 있잖아
 
 
 
