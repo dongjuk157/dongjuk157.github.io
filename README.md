@@ -86,6 +86,7 @@
 - navbar collapse 적용, 색상 적용
 - introduce 조금 추가
 - history도 삭제?
+  - 삭제 안함(21-02-14)
 
 
 
@@ -95,6 +96,27 @@
   - modal을 추가하고 싶은 태그에 `data-bs-toggle="modal" data-bs-target="#exampleModal"`이렇게 추가하고 target과 같은 id의 모달을 만들면 된다.
   - button 클릭 말고 card 자체 클릭하면 뜬다.
   - 내용은 사진들이 없어서 그냥 ul,li 태그로 몇개 적었다.
+
+
+
+2021-02-13
+
+- 아무것도 하기 싫어서 놀았다.
+- 주말인데 좀 쉴 수 도 있잖아
+
+
+
+2021-02-14
+
+- history 제작
+  - `history.html`, `css/hitsory_style.css`
+  - https://bootstrapious.com/p/timeline 
+  - 위 주소에 나온 코드를 사용했고 색깔 몇개 바꾸고, 적용 안되는거 몇개 바꿈(`ml`을 `me`등으로 바꿈)
+- introduce 제작
+  - 길게~길게~ 작성
+- contact 수정
+  - 가운데로 옮김
+  - 반응형 ㅇㅋ
 
 
 
