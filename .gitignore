@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/vscode,python,windows,django,vuejs
 # Edit at https://www.toptal.com/developers/gitignore?templates=vscode,python,windows,django,vuejs
 
+# others #
+*.pptx
+
 ### Django ###
 *.log
 *.pot
